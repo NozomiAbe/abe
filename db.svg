@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g fill="none" stroke="#000000" stroke-width="6">
+    
+    <!-- 上面 -->
+    <ellipse cx="60" cy="25" rx="40" ry="15" />
+
+    <!-- 側面（上段） -->
+    <path d="M20 25 V55 A40 15 0 0 0 100 55 V25" />
+
+    <!-- 中段ライン -->
+    <ellipse cx="60" cy="55" rx="40" ry="15" />
+
+    <!-- 側面（下段） -->
+    <path d="M20 55 V85 A40 15 0 0 0 100 85 V55" />
+
+    <!-- 底面 -->
+    <ellipse cx="60" cy="85" rx="40" ry="15" />
+
+  </g>
+</svg>
