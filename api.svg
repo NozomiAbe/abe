@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- ギア外形 -->
+  <g fill="none" stroke="black" stroke-width="8">
+    <path d="
+      M100,10
+      L120,10 L125,30
+      A70,70 0 0,1 165,55
+      L185,50 L195,70
+      L180,85
+      A70,70 0 0,1 180,115
+      L195,130 L185,150
+      L165,145
+      A70,70 0 0,1 125,170
+      L120,190 L100,190
+      L80,190 L75,170
+      A70,70 0 0,1 35,145
+      L15,150 L5,130
+      L20,115
+      A70,70 0 0,1 20,85
+      L5,70 L15,50
+      L35,55
+      A70,70 0 0,1 75,30
+      L80,10 Z
+    "/>
+    
+    <!-- 内側円 -->
+    <circle cx="100" cy="100" r="55"/>
+  </g>
+
+  <!-- テキスト -->
+  <text x="100" y="115"
+        font-size="40"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        fill="black">
+    API
+  </text>
+</svg>
